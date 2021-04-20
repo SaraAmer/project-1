@@ -95,15 +95,17 @@ section {
     top: 0;
     width: 100%;
     z-index: 5;
+    height: 40px;
 }
 #navbar__list{
     color: #000066;
-  
+    background-color: white;
 
 }
 a{
     padding: 20px;
     cursor:pointer;
+    
 }
 /* Footer Styles */
 .page__footer {
