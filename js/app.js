@@ -2,9 +2,9 @@
 let sections = document.querySelectorAll('section');
 
 function dynamicMenu(){ 
-//get the menue
+ //get the menue
  let nav = document.getElementById('navbar__list')
-//loop on the sections to add link by thier number
+ //loop on the sections to add link by thier number
  sections.forEach((section)=>{
     //create new list
      let list = document.createElement('li') 
@@ -23,7 +23,6 @@ function dynamicMenu(){
    nav.appendChild(list);
 });
 }
-
 
 function activeSection(){
     //get all of the anchors in the document
