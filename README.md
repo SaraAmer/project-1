@@ -2,12 +2,16 @@
 
 ## Table of Contents
 
-* [Instructions](#instructions)
+* [Main](#Main)
 
-## Instructions
+## Main
 
-The starter project has some HTML and CSS styling to display a static version of the Landing Page project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
+The javascript files of the project are in the js directory.
 
-To get started, open `js/app.js` and start building out the app's functionality
+The CSS files of the project are in the CSS directory.
 
-For specific, detailed instructions, look at the project instructions in the Udacity Classroom.
+
+The project contains one index.html file which has 4 sections and dynamically adding of the menu by the js file by using querySelector and getElementById 
+every item in the menu is connected to a specific section by click 
+the active section will have a unique design 
+
