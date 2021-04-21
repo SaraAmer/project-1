@@ -33,27 +33,27 @@ function activeSection(){
     for(section of sections){
         //get the position of the section
       let position = section.getBoundingClientRect();
-      if(position.top>=0 && position.top < 300){
+     if(position.top>=0 && position.top < 300){
          //if the section is in the specific postion give it active class to be different
         section.classList.add('active-class');    
         links.forEach((link)=>{
            //get the text of the anchor and if it's simillar to the active section change its background 
            //to make it active too
-          if(link.textContent===section.getAttribute('data-nav')){
+         if(link.textContent===section.getAttribute('data-nav')){
              link.style.background="blue"
              }
-          else {
+         else {
             link.style.background="white"
-            }
+              }  
              }) 
-         }
-         else{
+    
+            }
+     else{
              section.classList.remove('active-class')
-
-
-
-         }
-    }
+           }
+    
+      
+        }
      
         });
 }
