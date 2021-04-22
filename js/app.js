@@ -33,7 +33,7 @@ function activeSection(){
     for(section of sections){
         //get the position of the section
       let position = section.getBoundingClientRect();
-      if(position.top>=0 && position.top < 300){
+      if(position.top>=0 && position.top < 250){
          //if the section is in the specific postion give it active class to be different
         section.classList.add('active-class');    
         links.forEach((link)=>{
