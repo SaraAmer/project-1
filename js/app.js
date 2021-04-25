@@ -25,7 +25,7 @@ function dynamicMenu(){
 }
 
 function activeSection(){
-    //get all of the anchors in the document
+    //get all of the anchor in the document
    let links = document.querySelectorAll('a');
     //add n scroll event on the window to determine the active section 
    window.addEventListener('scroll' , (e)=>{
